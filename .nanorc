@@ -1,0 +1,20 @@
+##
+## options
+##
+
+set autoindent
+set tabsize 4
+set tabstospaces
+set nowrap
+set softwrap
+set smooth
+set morespace
+set cut
+set suspend
+
+##
+## keybinds
+##
+
+bind ^S research main
+bind ^@ mark main
