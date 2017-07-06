@@ -1,11 +1,5 @@
-# .bashrc
-
-# Source global definitions
-if [ -f /etc/bashrc ]; then
-	. /etc/bashrc
-fi
-
-# User specific aliases and functions
+# hekt/dotfiles-instant/.bashrc definitions
+# https://github.com/hekt/dotfiles-instant/blob/master/.bashrc
 
 # git
 source $HOME/.git-completion.bash
