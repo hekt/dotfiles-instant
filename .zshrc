@@ -24,6 +24,7 @@ colors
 setopt PROMPT_SUBST;
 PROMPT='%(?.%{%F{yellow}(*'\''-'\'')%}.%{%F{red}(;>_<%)%}) %F{green}%n%f@%F{blue}%m%f:%F{yellow}%~%F{red}$(__git_ps1 " (%s)")
 %f$ '
+PROMPT2='> '
 RPROMPT='%F{magenta}[%w %T]'
 
 # completion
