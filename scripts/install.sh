@@ -22,6 +22,7 @@ FILES=(
     ".git-completion.bash"
     ".git-prompt.sh"
     ".gitignore.global"
+    ".inputrc"
     ".nanorc"
 )
 for f in ${FILES[@]}; do
