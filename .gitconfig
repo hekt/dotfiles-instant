@@ -35,7 +35,7 @@
 [color]
     ui = true
 [user]
-    email = hekt@gmail.com
+    email = hektorg@gmail.com
     name = hekt
 [core]
     autocrlf = false
