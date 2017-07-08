@@ -5,8 +5,6 @@ set -u
 PARENT_DIR=$(cd $(dirname $0); cd ..; pwd)
 FILES=(
     ".dir_colors"
-    ".git-completion.bash"
-    ".git-prompt.sh"
     ".gitignore.global"
     ".inputrc"
     ".nanorc"
