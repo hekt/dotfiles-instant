@@ -10,9 +10,15 @@ FILES=(
     ".gitignore.global"
     ".inputrc"
     ".nanorc"
-    ".zsh"
+)
+DIRS =(
+    ".zsh.d"
 )
 
 for f in ${FILES[@]}; do
     ln -s $PARENT_DIR/$f $HOME/$f
+done
+
+for d in $(DIRS[@]}; do
+    ln -s $PARENT_DIR/$d/ $HOME/$d
 done
