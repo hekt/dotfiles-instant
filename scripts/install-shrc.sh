@@ -16,7 +16,7 @@ fi
 EOF
 
 cat >> $HOME/.zshrc <<EOF
-# load dotfiles-instant/.bashrc
+# load dotfiles-instant/.zshrc
 # https://github.com/hekt/dotfiles-instant
 if [ -f $ZSHRC_PATH ]; then
    . $ZSHRC_PATH
