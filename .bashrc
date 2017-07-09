@@ -11,7 +11,8 @@ GIT_PS1_SHOWSTASHSTATE=1
 __git_complete g __git_main
 
 # aliases
-alias ls="ls -ahlp --color"
+alias ls="ls -hlp --color"
+alias lsa="ls -ahlp --color"
 alias rm="rm -i"
 alias sudo="sudo "
 alias g="git"
