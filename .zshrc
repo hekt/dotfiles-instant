@@ -3,6 +3,7 @@ alias ls="ls -ahlp --color"
 alias rm="rm -i"
 alias sudo="sudo "
 alias g="git"
+alias reload="source $HOME/.zshrc"
 
 # keybinds
 disable r
