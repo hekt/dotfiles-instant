@@ -24,10 +24,10 @@ GIT_PS1_SHOWSTASHSTATE=1
 autoload -Uz colors
 colors
 setopt PROMPT_SUBST;
-PROMPT='%(?.%{%F{yellow}(*'\''-'\'')%}.%{%F{red}(;>_<%)%}) %F{green}%n%f@%F{blue}%m%f:%F{yellow}%~%F{red}$(__git_ps1 " (%s)")
+PROMPT='%(?.%{%F{yellow}(*'\''-'\'')%}.%{%F{red}(;>_<%)%}) %F{green}%n%f@%F{blue}%m%f:%F{yellow}%~
 %f$ '
+RPROMPT='%F{red}$(__git_ps1 "(%s)")'
 PROMPT2='> '
-RPROMPT='%F{magenta}[%w %T]'
 
 # completion
 autoload -Uz compinit
