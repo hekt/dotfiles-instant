@@ -2,8 +2,8 @@
 # https://github.com/hekt/dotfiles-instant/blob/master/.bashrc
 
 # git
-source $HOME/.git-completion.bash
-source $HOME/.git-prompt.sh
+source $HOME/.git.d/contrib/git-completion.bash
+source $HOME/.git.d/contrib/git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=1
 GIT_PS1_SHOWUPSTREAM=1
 GIT_PS1_SHOWUNTRACKEDFILES=1

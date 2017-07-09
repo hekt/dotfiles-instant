@@ -40,4 +40,4 @@
 [core]
     autocrlf = false
     editor = nano
-    excludesfile = ~/.gitignore.global
+    excludesfile = ~/.git.d/.gitignore.global
