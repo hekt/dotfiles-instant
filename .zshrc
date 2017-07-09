@@ -37,7 +37,7 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 
 # history
-export HISTFILE=$HOME/.zsh_history
+export HISTFILE=$HOME/.zsh.d/.zsh_history
 export HISTSIZE=1000
 export SAVEHIST=100000
 setopt hist_expand
