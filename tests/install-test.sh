@@ -2,6 +2,7 @@
 
 set -e
 set -u
+set -x
 
 # symlink exists
 test -h $HOME/.gitconfig
