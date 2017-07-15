@@ -3,10 +3,11 @@ notifications:
   email: false
 git:
   submodules: false
+sudo: true
 install: true
 before_script:
-  - whoami
-  - mkdir /home/${USER}
+  - sudo mkdir /home/${USER}
+  - sudo chown ${USER} /home/${USER}
 script:
   - whoami
   - make install
