@@ -4,6 +4,10 @@ notifications:
 git:
   submodules: false
 install: true
+before_script:
+  - whoami
+  - mkdir /home/${USER}
 script:
+  - whoami
   - make install
   - make test
