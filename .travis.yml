@@ -1,0 +1,7 @@
+language: bash
+notifications:
+  email: false
+install: true
+script:
+  - make install
+  - make test
