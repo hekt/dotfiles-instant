@@ -4,6 +4,7 @@ set -u
 
 PARENT_DIR=$(cd $(dirname $0); cd ..; pwd)
 FILES=(
+    ".gitconfig"
     ".dir_colors"
     ".inputrc"
     ".nanorc"

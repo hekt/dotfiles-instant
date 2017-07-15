@@ -4,6 +4,7 @@ set -e
 set -u
 
 # symlink exists
+test -h $HOME/.gitconfig
 test -h $HOME/.dir_colors
 test -h $HOME/.inputrc
 test -h $HOME/.nanorc
