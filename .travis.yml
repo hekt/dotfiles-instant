@@ -9,7 +9,7 @@ env:
 install: true
 before_script:
   - mkdir $TEST_HOME
-  - export $HOME=$TEST_HOME
+  - export HOME=$TEST_HOME
 script:
   - make install
   - make test
