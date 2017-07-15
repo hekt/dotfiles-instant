@@ -3,12 +3,13 @@ notifications:
   email: false
 git:
   submodules: false
-sudo: true
+env:
+  global:
+    - TEST_HOME=$HOME/testhome
 install: true
 before_script:
-  - sudo mkdir /home/${USER}
-  - sudo chmod 777 /home/${USER}
+  - mkdir $TEST_HOME
+  - export $HOME=$TEST_HOME
 script:
-  - whoami
   - make install
   - make test
