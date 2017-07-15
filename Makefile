@@ -8,3 +8,6 @@ install-symlink:
 
 install-git-contrib:
 	@bash ./scripts/install-git-contrib.sh
+
+test:
+	@bash ./tests/install-test.sh
