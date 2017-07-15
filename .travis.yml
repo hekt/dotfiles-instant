@@ -7,7 +7,7 @@ sudo: true
 install: true
 before_script:
   - sudo mkdir /home/${USER}
-  - sudo chown ${USER} /home/${USER}
+  - sudo chmod 777 /home/${USER}
 script:
   - whoami
   - make install
