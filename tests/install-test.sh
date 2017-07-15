@@ -21,5 +21,5 @@ test -f $HOME/.bashrc
 test -f $HOME/.zshrc
 
 # shell rcs updated
-grep "dotfiles-instant/.bashrc" $HOME/.bashrc
-grep "dotfiles-instant/.zshrc" $HOME/.zshrc
+grep "dotfiles-instant/files/.bashrc" $HOME/.bashrc
+grep "dotfiles-instant/files/.zshrc" $HOME/.zshrc
