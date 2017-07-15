@@ -3,13 +3,10 @@ notifications:
   email: false
 git:
   submodules: false
-env:
-  global:
-    - TEST_HOME=$HOME/testhome
 install: true
 before_script:
-  - mkdir $TEST_HOME
-  - export HOME=$TEST_HOME
+  - mkdir $HOME/testhome
+  - export HOME=$HOME/testhome
 script:
   - make install
   - make test
