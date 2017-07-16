@@ -3,7 +3,7 @@
 # usage
 
 ```console
-$ git clone --revursive git@github.com:hekt/dotfiles-instant.git
+$ git clone --recursive git@github.com:hekt/dotfiles-instant.git
 $ cd dotfiles-instant
 $ make initialize # download git contribs
 $ make install # make symlinks on $HOME and add lines to $HOME/.{z,ba}shrc
