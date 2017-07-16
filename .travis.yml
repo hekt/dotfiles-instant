@@ -8,6 +8,6 @@ before_script:
   - mkdir $HOME/testhome
   - export HOME=$HOME/testhome
 script:
+  - make initialize
   - make install
-  - make install-shrc
   - make test
