@@ -28,6 +28,8 @@ test -f $HOME/.git.d/contrib/git-completion.bash
 test -f $HOME/.bashrc
 test -f $HOME/.zshrc
 
-# shell rcs updated
-grep "dotfiles-instant/files/.bashrc" $HOME/.bashrc
-grep "dotfiles-instant/files/.zshrc" $HOME/.zshrc
+# shell rcs once updated
+BASHRC_PATH="$PARENT_DIR/files/.bashrc"
+ZSHRC_PATH="$PARENT_DIR/files/.zshrc"
+test 2 -eq `grep -q $BASHRC_PATH $HOME/.bashrc | wc -l`
+test 2 -eq `grep -q $ZSHRC_PATH $HOME/.zshrc | wc -l`

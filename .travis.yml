@@ -9,4 +9,5 @@ before_script:
   - export HOME=$HOME/testhome
 script:
   - make install
+  - make install-shrc
   - make test
