@@ -1,6 +1,6 @@
 # aliases
 alias ls="ls -hlp --color"
-alias lsa="ls -ahlp --color"
+alias lsa="ls -a"
 alias rm="rm -i"
 alias sudo="sudo "
 alias g="git"
