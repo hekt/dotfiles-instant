@@ -41,3 +41,5 @@
     autocrlf = false
     editor = nano
     excludesfile = ~/.git.d/.gitignore.global
+[push]
+    default = simple
