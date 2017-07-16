@@ -20,10 +20,6 @@ test -h $HOME/.nanorc
 test -h $HOME/.git.d
 test -h $HOME/.zsh.d
 
-# git contribs
-test -f $HOME/.git.d/contrib/git-prompt.sh
-test -f $HOME/.git.d/contrib/git-completion.bash
-
 # shell rcs
 test -f $HOME/.bashrc
 test -f $HOME/.zshrc

@@ -14,7 +14,7 @@ bindkey '^r' history-incremental-search-backward
 bindkey '^s' history-incremental-search-forward
 
 # git-prompt
-source $HOME/.git.d/contrib/git-prompt.sh
+source $HOME/.git.d/contrib/completion/git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=1
 GIT_PS1_SHOWUPSTREAM=1
 GIT_PS1_SHOWUNTRACKEDFILES=1

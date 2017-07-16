@@ -1,18 +1,29 @@
-.PHONY: install
-install: install-shrc install-symlink install-git-contrib
+#
+# install
+#
+install:
+	@bash ./scripts/install.sh
 
-.PHONY: install-shrc
-install-shrc:
-	@bash ./scripts/install-shrc.sh
+#
+# initialize
+#
+initialize: files/.git.d/contrib/completion/git-prompt.sh files/.git.d/contrib/completion/git-completion.bash
 
-.PHONY: install-symlink
-install-symlink:
-	@bash ./scripts/install-symlink.sh
+git_version: FORCE
+	@bash ./scripts/update-git-version.sh
 
-.PHONY: install-git-contrib
-install-git-contrib:
-	@bash ./scripts/install-git-contrib.sh
+files/.git.d/contrib/completion/git-prompt.sh: git_version
+	@echo 'download completion/git-prompt.sh'
+	@bash ./scripts/download-git-contrib.sh 'completion/git-prompt.sh'
 
-.PHONY: test
+files/.git.d/contrib/completion/git-completion.bash: git_version
+	@echo 'download completion/git-completion.bash'
+	@bash ./scripts/download-git-contrib.sh 'completion/git-completion.bash'
+
 test:
+	@bash ./tests/initialize-test.sh
 	@bash ./tests/install-test.sh
+
+FORCE:
+
+.PHONY: FORCE install initialize test
