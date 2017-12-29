@@ -9,6 +9,7 @@ FILES=(
     ".gitconfig"
     ".dir_colors"
     ".inputrc"
+    ".myclirc"
     ".nanorc"
     ".git.d"
     ".zsh.d"
