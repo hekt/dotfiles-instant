@@ -1,11 +1,13 @@
 # aliases
 alias ls="ls -hlp --color"
 alias lsa="ls -a"
-alias less="less -iMR"
 alias rm="rm -i"
 alias sudo="sudo "
 alias g="git"
 alias reload="source $HOME/.zshrc"
+
+# less
+export LESS="-i -M -R"
 
 # keybinds
 disable r
