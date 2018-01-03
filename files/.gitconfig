@@ -2,6 +2,7 @@
     a = add
     ap = add -p
     aa = add .
+    al = ! git status --short | fzf --multi | sed -E -e 's/^( [A-Z]|[A-Z] |\\?\\?|!!) //g' | xargs git add
     c = commit
     ca = commit --amend
     cm = commit -m
