@@ -7,7 +7,7 @@ alias g="git"
 alias reload="source $HOME/.zshrc"
 
 # less
-export LESS="-i -M -R"
+export LESS="-i -F -M -R"
 
 # fzf
 export FZF_DEFAULT_OPTS="--ansi --color 16,prompt:4,bg+:#3b3b3b,fg:#bbbbbb,fg+:#d6d6d6,hl:3,hl+:3"
