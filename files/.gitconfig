@@ -41,7 +41,7 @@
     name = hekt
 [core]
     autocrlf = false
-    editor = emacsclient -nw -a nano
+    editor = nano
     excludesfile = ~/.git.d/.gitignore.global
 [push]
     default = simple
