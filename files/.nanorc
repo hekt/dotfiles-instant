@@ -9,5 +9,5 @@ set nowrap
 set softwrap
 set smooth
 set morespace
-set cut
+set cutfromcursor
 set suspend
