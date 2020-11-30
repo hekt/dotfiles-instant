@@ -82,14 +82,14 @@ keyword_casing = auto
 # Custom colors for the completion menu, toolbar, etc.
 [colors]
 # Completion menus.
-Token.Menu.Completions.Completion.Current = 'bg:#ansiblue #ffffff'
+Token.Menu.Completions.Completion.Current = 'bg:ansiblue #ffffff'
 Token.Menu.Completions.Completion = 'bg:#888888 #333333'
 Token.Menu.Completions.MultiColumnMeta = 'bg:#aaffff #000000'
 Token.Menu.Completions.ProgressButton = 'bg:#003333'
 Token.Menu.Completions.ProgressBar = 'bg:#00aaaa'
 
 # Query results
-Token.Output.Header = '#ansiyellow'
+Token.Output.Header = 'ansiyellow'
 Token.Output.OddRow = ''
 Token.Output.EvenRow = ''
 
@@ -97,8 +97,8 @@ Token.Output.EvenRow = ''
 Token.SelectedText = '#ffffff bg:#6666aa'
 
 # Search matches. (reverse-i-search)
-Token.SearchMatch = '#ffffff bg:#ansiyellow'
-Token.SearchMatch.Current = '#ffffff bg:#ansired'
+Token.SearchMatch = '#ffffff bg:ansiyellow'
+Token.SearchMatch.Current = '#ffffff bg:ansired'
 
 # The bottom toolbar.
 Token.Toolbar = 'bg:#222222 #aaaaaa'
@@ -113,12 +113,12 @@ Token.Toolbar.Arg = 'noinherit bold'
 Token.Toolbar.Arg.Text = 'nobold'
 
 # Pygments builtin
-Token.Literal.Number = '#ansiblue'
-Token.Literal.String = '#ansigreen'
-Token.Keyword = '#ansifuchsia'
-Token.Keyword.Type = '#ansired'
+Token.Literal.Number = 'ansiblue'
+Token.Literal.String = 'ansigreen'
+Token.Keyword = 'ansibrightmagenta'
+Token.Keyword.Type = 'ansired'
 Token.Punctuation = '#888888'
-Token.Name.Function = '#ansiyellow'
+Token.Name.Function = 'ansiyellow'
 Token.Operator = '#888888'
 Token.Prompt = '#888888'
 Token.Continuation = '#888888'
