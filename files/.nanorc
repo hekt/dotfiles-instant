@@ -6,8 +6,6 @@ set autoindent
 set tabsize 4
 set tabstospaces
 set nowrap
-set softwrap
 set smooth
 set morespace
-set cutfromcursor
 set suspend
